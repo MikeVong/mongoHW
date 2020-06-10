@@ -1,0 +1,24 @@
+body {
+    background-color:black;
+    padding-top: 70px;
+}
+.jumbotron{
+    background-color: darkgreen;
+    color: black;
+}
+.panel-heading{
+    background-color: darkgreen;
+    color: black;
+}
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
