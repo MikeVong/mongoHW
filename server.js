@@ -27,16 +27,19 @@ app.use(express.json());
 app.use(express.static("./public"));
 
 // Set Handlebars.
+const Handlebars = require('handlebars')
 var exphbs = require("express-handlebars");
+const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access')
 
 app.engine("handlebars", exphbs({
     defaultLayout: "main",
+    handlebars: allowInsecurePrototypeAccess(Handlebars),
     partialsDir: path.join(__dirname, "/views/layouts/partials")
 }));
 app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/vvnew", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost/vvnewss", { useNewUrlParser: true });
 
 // Routes
 // ======
