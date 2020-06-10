@@ -8,14 +8,15 @@
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
-  "author": "",
+  "author": "Mike Vong",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
-    "express-handlebars": "^4.0.4",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.6",
+    "morgan": "^1.7.0",
+    "axios": "^0.19.2"
   }
 }
