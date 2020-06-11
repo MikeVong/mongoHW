@@ -1,24 +1,29 @@
 body {
-    background-color:black;
+    background-image: url("/assets/images/bg.jpg");
     padding-top: 70px;
 }
 .jumbotron{
-    background-color: darkgreen;
-    color: black;
+    background-image: url("/assets/images/jumbo.jpg");
+    background-size: 100% 100%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-repeat: no-repeat;
+    color: white;
 }
 .panel-heading{
-    background-color: darkgreen;
-    color: black;
+    background-image: url("/assets/images/bar.jpg");
+    text-shadow: -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
+    color: white;
+}
+.panel-body{
+    background-color:lightgray;
 }
 .deleteNote {
 	display: inline-block;
 }
-
 .previousNotes {
     display: inline-block;
     width: 90%
 }
-
 #scrape {
     margin: 8px 0px;
 }

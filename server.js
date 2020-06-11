@@ -50,7 +50,6 @@ app.get("/", function(req, res) {
     var hbsObject = {
       article: data
     };
-    console.log(hbsObject);
     res.render("home", hbsObject);
   });
 });
